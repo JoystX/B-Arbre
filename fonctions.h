@@ -14,3 +14,4 @@ B_Arbre Ajouter_Cle(B_Arbre B, int C);
 B_Arbre Supprimer_Cle(B_Arbre B, int C);
 Booleen Appartient_Cle(B_Arbre B, int C);
 Booleen B_Arbre_Vide(B_Arbre B);
+void afficher_arbre(B_arbre B, int hauteur);

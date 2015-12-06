@@ -3,6 +3,9 @@
 int main(int argc, char *argv[]){
 	printf("Bienvenu sur B-Arbre\n\n\n\n");
 	int continuer = 1;
+
+B_Arbre arbreActuel = Creer_B_Arbre();
+
 	while(continuer == 1){
 		int choix;
 	    printf("Quel est votre choix ?:\n\n");
@@ -20,12 +23,17 @@ int main(int argc, char *argv[]){
 
 	    switch (choix){
 	        case 1:
+					printf("\nQuel clé ajouter ?\n");
+				scanf("%d",clé);
+				 arbreActuel=Ajouter_Cle(B_Arbre B, int C)
+				printf("\n\n");
 	        break;
 
 	        case 2:
 	        break;
 
 	        case 3:
+					afficher_arbre(arbreActuel,)
 	        break;
 
 	        case 4:
@@ -52,6 +60,6 @@ int main(int argc, char *argv[]){
 
 
 	}
-	
+
 	return 0;
 }
